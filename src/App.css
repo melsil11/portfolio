@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,22 @@
   to {
     transform: rotate(360deg);
   }
+} */
+html, body {
+  background-color: #73c4c6;
+}
+
+.homepage-container{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  height:100%;
+  color:white;
+  padding-top:10%;
+  padding-left:5%;
+  padding-right:5%;
+  transition-delay: 1s;
+  transition-timing-function: ease-in;
 }
