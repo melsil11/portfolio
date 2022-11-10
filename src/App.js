@@ -1,27 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React, { Fragment } from 'react'
+import { Route, Routes, Link } from 'react-router-dom'
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import { Route, Link } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
+const App = () => {
+  return (   
+    <>
+    <Fragment>
       <nav>
         <Link exact to='/'/>
         <Link to='/aboutme'/>
         <Link to='/projects'/>
       </nav>
-      <main>
-        <header/>
-        <Route exact path = '/' component={ HomePage }/>
-        <Route path = '/aboutme' component={ AboutMe }/>
-        <Route path = '/projects' component={ Projects }/>
-      </main>
-    </div>
-  );
+      <Header/>
+      <Routes>
+        <Route path='/' element={ <HomePage/> }/>
+        <Route path='/aboutme' element={ <AboutMe/> }/>
+        <Route path='/projects' element={ <Projects/> }/>
+      </Routes>
+    </Fragment>
+    </>
+  )
 }
 
-export default App;
+export default App

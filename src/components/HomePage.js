@@ -1,17 +1,19 @@
 import Picture from '../images/collagepictures.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import '../App.css'
 
 const HomePage = () => {
     return (
+        <>
         <div className='homepage-container'>
-            <img src={ Picture } className='image'/>
+            <img src={ Picture } className='image' alt='collageimage'/>
             <div className='intro'>
-                <p>Hello!</p>
-                <p></p>
-                <p></p>
+                <p id='hello'>Hello!</p>
+                <p className='welcome-description'>dfjhdslkfhkdsajhfckjdsabvcljhdsbacfjhbdsajhcfbdsaljhcbdsaljhbcldsjahbljhdsabcljhbd  b h</p>
+                <p className='welcome-description'></p>
             </div>
         </div>
+        </>
     )
 }
 

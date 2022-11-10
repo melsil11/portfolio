@@ -26,9 +26,9 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -37,6 +37,7 @@
   }
 } */
 html, body {
+  height: 100%;
   background-color: #73c4c6;
 }
 
@@ -53,4 +54,29 @@ html, body {
   padding-right:5%;
   transition-delay: 1s;
   transition-timing-function: ease-in;
+}
+
+#hello {
+  padding: 0;
+  margin:0;
+  font-size: 50px;
+  font-weight: bold;  
+}
+.welcome-description {
+  font-size: 30px;
+}
+
+.image{
+  height:30vh;
+  margin-right:25px;
+  padding:5px;
+  border:2px solid white;
+  transition-delay: 3s;
+  transition-timing-function: ease;
+}
+
+#footer {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 30px;
 }

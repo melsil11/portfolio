@@ -1,5 +1,7 @@
+import React from 'react'
 import Projects from './Projects'
-import {Link} from "react-router-dom";
+import {Link} from "react-router-dom"
+
 
 const Header = () => {
     return (

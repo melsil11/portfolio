@@ -4,7 +4,6 @@ const AboutMe = () => {
     return (
         <div>
             <div className ='image-container'>
-                <img src = { Picture } className=''/>
                 <h1 className='about-me'>Hello!</h1>
                 <p></p>
                 <p></p>
