@@ -3,7 +3,7 @@
 
 html, body {
   height: 100%;
-  background-color: #73c4c6;
+  /* background-color: #73c4c6; */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -14,7 +14,7 @@ html, body {
   align-items: center;
   position: relative;
   height:100%;
-  color: black;
+  color: rgb(100,100,100);
   padding-top:10%;
   padding-left:5%;
   padding-right:5%;
@@ -30,9 +30,13 @@ html, body {
 }
 .welcome-description {
   font-size: 30px;
+  color: dimgrey;
 }
 
 .image{
+  max-width: 400px;
+  /* height: auto; */
+  width: 40vh;
   height:40vh;
   margin-right:25px;
   padding:5px;
@@ -49,12 +53,9 @@ html, body {
   background-color: white;
 }
 
-.links{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
+.header-name {
+  font-size: 40px;
+  margin-top: -10px;
 }
 
 .p-links{
@@ -62,6 +63,8 @@ html, body {
   font-size: 22px;
   color:black;
   text-decoration: none;
+  margin-top: 2%;
+  margin-bottom: -2%;
 }
 .heading-container{
   color:#73c4c6;
@@ -79,7 +82,10 @@ html, body {
 }
 
 #footer {
-  text-align: center;
-  margin-bottom: 25px;
+  text-align: left;
+  margin-bottom: 20%;
   margin-top: 30px;
+  color: rgb(100,100,100);
+  font-size: small;
+  padding-left: 5%;
 }
