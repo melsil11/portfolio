@@ -153,3 +153,13 @@ html, body {
 #stranger-image {
   height: 500px;
 }
+
+.deployed{
+  color: rgb(100,100,100);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.deployed:hover {
+  color: grey;
+}
