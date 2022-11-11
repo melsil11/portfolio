@@ -15,7 +15,7 @@ const Projects = () => {
             <Carousel className='carousel' fade>
                 {/* <Carousel.Container> */}
                 <Carousel.Item>
-                    <a href='https://thegoodavocado.netlify.app'target='_blank'>
+                    <a href='https://thegoodavocado.netlify.app'target='_blank' rel="noreferrer">
                         <img id='avo-image'
                         class="d-block w-100 carousel-img"
                         src={Picture}
@@ -24,7 +24,7 @@ const Projects = () => {
                     </a>
                         <h3>The Good Avocado!</h3>
                         <p className ='projects-descriptions'>
-                        This group project is a Full Stack MERN application. This application allows users to view and index of restaurants as well as the ability to view more detailed about the restaurants by clicking on the restaurant card. Once on the show page users are greeted with a variety of details about the restaurant and when available a link to the restaurant’s personal website. Users can also leave reviews and upload images with the review. Users also can view all of the restaurants they have reviewed via a link on the nav bar. Users can also create restaurants and indicate that they are the owners of the restaurant. The application also allows users to utilize a search bar that will search a restaurants name, cuisine type or location. <a href='https://thegoodavocado.netlify.app' target='_blank' className='deployed'>DeployedLink</a></p>
+                        This group project is a Full Stack MERN application. This application allows users to view and index of restaurants as well as the ability to view more detailed about the restaurants by clicking on the restaurant card. Once on the show page users are greeted with a variety of details about the restaurant and when available a link to the restaurant’s personal website. Users can also leave reviews and upload images with the review. Users also can view all of the restaurants they have reviewed via a link on the nav bar. Users can also create restaurants and indicate that they are the owners of the restaurant. The application also allows users to utilize a search bar that will search a restaurants name, cuisine type or location. <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
                     {/* <Carousel.Caption className='carousel-text'>
                         <h3>The Good Avocado!</h3>
                         <p>
@@ -34,7 +34,7 @@ const Projects = () => {
                 </Carousel.Item> 
                 {/* </Carousel.Container> */}
                 <Carousel.Item>
-                    <a href='https://family-friends-recipe-collection.fly.dev'target='_blank'>
+                    <a href='https://family-friends-recipe-collection.fly.dev'target='_blank'rel="noreferrer" >
                         <img id='recipe-image'
                         className="d-block w-100 carousel-img"
                         src={Picture1}
@@ -42,11 +42,11 @@ const Projects = () => {
                         />
                     </a>
                     <h3>Family and Friends Recipe Collection</h3>
-                    <p className ='projects-descriptions'>This Full Stack project was a personal project that reflects my design preferences. I wanted this application to feel like opening your grandmother’s recipe box. This project utilizes MongoDB, Express, LiquidJS, HTML, CSS, and JavaScript. User can securely create an account and create and view recipes, as well as leave notes about individual recipes. The user can also navigate to all the recipes they have created. I am actively working on a version 2 that will implement more options for users. <a href='https://family-friends-recipe-collection.fly.dev' target='_blank'className='deployed'>DeployedLink</a></p>
+                    <p className ='projects-descriptions'>This Full Stack project was a personal project that reflects my design preferences. I wanted this application to feel like opening your grandmother’s recipe box. This project utilizes MongoDB, Express, LiquidJS, HTML, CSS, and JavaScript. User can securely create an account and create and view recipes, as well as leave notes about individual recipes. The user can also navigate to all the recipes they have created. I am actively working on a version 2 that will implement more options for users. <a href='https://family-friends-recipe-collection.fly.dev' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a></p>
 
                 </Carousel.Item>
                 <Carousel.Item>
-                    <a href='https://pie-application.fly.dev' target='_blank'>
+                    <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer">
                         <img id='pie-image'
                         className="d-block w-100 carousel-img"
                         src={Picture2}
@@ -54,10 +54,10 @@ const Projects = () => {
                         />
                     </a>
                      <h3>Pie API</h3>
-                    <p className ='projects-descriptions'>This single resource API utilizes MongoDB, Express and LiquidJS, HTML, CSS, and JavaScript. It has full CRUD abilities and an easy-to-follow user experience. It allows users to sign up securely and view and create pies. It utilizes models and subdocuments. This was a steppingstone project that would enable me to make more dynamic projects in the future. <a href='https://pie-application.fly.dev' target='_blank'className='deployed'>DeployedLink</a></p>
+                    <p className ='projects-descriptions'>This single resource API utilizes MongoDB, Express and LiquidJS, HTML, CSS, and JavaScript. It has full CRUD abilities and an easy-to-follow user experience. It allows users to sign up securely and view and create pies. It utilizes models and subdocuments. This was a steppingstone project that would enable me to make more dynamic projects in the future. <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <a href='https://melsil11.github.io/Find-the-Puppy' target='_blank'>
+                    <a href='https://melsil11.github.io/Find-the-Puppy' target='_blank'rel="noreferrer">
                         <img id='find-the-puppy-image'
                         className="d-block w-100 carousel-img"
                         src={Picture3}
@@ -65,7 +65,7 @@ const Projects = () => {
                         />
                     </a>
                     <h3>Find the Puppy!</h3>
-                    <p className ='projects-descriptions'>This front-end project was built using HTML, CSS, and vanilla JavaScript. It was my first attempt at building something after the first two weeks of my program. Since I come from an education background, I wanted to make a simple matching game. The code randomizes the order of the cards and allows the user to play against a computer. The code is simple, clean, and dry. <a href='https://melsil11.github.io/Find-the-Puppy' target='_blank'className='deployed'>DeployedLink</a></p>               
+                    <p className ='projects-descriptions'>This front-end project was built using HTML, CSS, and vanilla JavaScript. It was my first attempt at building something after the first two weeks of my program. Since I come from an education background, I wanted to make a simple matching game. The code randomizes the order of the cards and allows the user to play against a computer. The code is simple, clean, and dry. <a href='https://melsil11.github.io/Find-the-Puppy' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a></p>               
                 </Carousel.Item>
                 {/* need to deploy and add href */}
                 <Carousel.Item>
