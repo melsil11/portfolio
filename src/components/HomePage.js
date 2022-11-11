@@ -1,5 +1,4 @@
 import Picture from '../images/collagepictures.png'
-// import { Link } from 'react-router-dom'
 import '../App.css'
 
 const HomePage = () => {
