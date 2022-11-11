@@ -8,8 +8,8 @@ const HomePage = () => {
         <div className='homepage-container'>
             <img src={ Picture } className='image' alt='collageimage'/>
             <div className='intro'>
-                <p id='hello'>Hello!</p>
-                <p className='welcome-description'>dfjhdslkfhkdsajhfckjdsabvcljhdsbacfjhbdsajhcfbdsaljhcbdsaljhbcldsjahbljhdsabcljhbd  b h</p>
+                <p className='hello'>Hi!</p>
+                <p className='hello'>I'm Melanie Silva</p>
                 <p className='welcome-description'></p>
             </div>
         </div>
