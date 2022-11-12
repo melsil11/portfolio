@@ -11,7 +11,7 @@ const App = () => {
     <>
     <Fragment>
       <nav>
-        <Link exact to='/'/>
+        <Link to='/'/>
         <Link to='/aboutme'/>
         <Link to='/projects'/>
       </nav>

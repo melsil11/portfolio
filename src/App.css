@@ -46,7 +46,7 @@ html, body {
   transition-timing-function: ease;
 }
 
-.header-container{
+#header-container{
   display:flex;
   justify-content: space-between;
   padding:25px;
@@ -162,4 +162,8 @@ html, body {
 
 .deployed:hover {
   color: grey;
+}
+
+#toggle {
+  background-color: #73c4c6;
 }
