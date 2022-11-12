@@ -11,12 +11,12 @@ import Picture4 from '../images/stranger-things.png'
 const Projects = () => {
     return (
         <>
-            <section class='projects'>
+            <section className='projects'>
             <Carousel className='carousel' fade>
                 <Carousel.Item>
                     <a href='https://thegoodavocado.netlify.app'target='_blank' rel="noreferrer">
                         <img id='avo-image'
-                        class="d-block w-100 carousel-img"
+                        className="d-block w-100 carousel-img"
                         src={Picture}
                         alt='the-good-avocado'
                         />
