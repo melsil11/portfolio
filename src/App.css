@@ -167,3 +167,8 @@ html, body {
 #toggle {
   background-color: #73c4c6;
 }
+
+#projects-heading {
+  color: rgb(100,100,100);
+  text-align: center;
+}

@@ -11,8 +11,9 @@ import Picture4 from '../images/stranger-things.png'
 const Projects = () => {
     return (
         <>
+        <h2 id='projects-heading'>Click through the images to see all my projects!</h2>
             <section className='projects'>
-            <Carousel className='carousel' fade>
+            <Carousel className='carousel' interval={5000}>
                 <Carousel.Item>
                     <a href='https://thegoodavocado.netlify.app'target='_blank' rel="noreferrer">
                         <img id='avo-image'
