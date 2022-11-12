@@ -13,7 +13,6 @@ const Projects = () => {
         <>
             <section class='projects'>
             <Carousel className='carousel' fade>
-                {/* <Carousel.Container> */}
                 <Carousel.Item>
                     <a href='https://thegoodavocado.netlify.app'target='_blank' rel="noreferrer">
                         <img id='avo-image'
@@ -24,15 +23,9 @@ const Projects = () => {
                     </a>
                         <h3>The Good Avocado!</h3>
                         <p className ='projects-descriptions'>
-                        This group project is a Full Stack MERN application. This application allows users to view and index of restaurants as well as the ability to view more detailed about the restaurants by clicking on the restaurant card. Once on the show page users are greeted with a variety of details about the restaurant and when available a link to the restaurant’s personal website. Users can also leave reviews and upload images with the review. Users also can view all of the restaurants they have reviewed via a link on the nav bar. Users can also create restaurants and indicate that they are the owners of the restaurant. The application also allows users to utilize a search bar that will search a restaurants name, cuisine type or location. <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
-                    {/* <Carousel.Caption className='carousel-text'>
-                        <h3>The Good Avocado!</h3>
-                        <p>
-                        Like a good avocado, a good restaurant can be hard to find.
-                        </p>
-                    </Carousel.Caption> */}
+                        This group project is a Full Stack MERN application. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants by clicking on the restaurant card. Once on the show page users are greeted with a variety of details about the restaurant and when available a link to the restaurant’s personal website. Users can also leave reviews and upload images with the review. Users also can view all of the restaurants they have reviewed via a link on the nav bar. Users can create restaurants and indicate that they are the owners of the restaurant. The application also allows users to utilize a search bar that will search a restaurants name, cuisine type or location. <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
+  
                 </Carousel.Item> 
-                {/* </Carousel.Container> */}
                 <Carousel.Item>
                     <a href='https://family-friends-recipe-collection.fly.dev'target='_blank'rel="noreferrer" >
                         <img id='recipe-image'
@@ -43,7 +36,6 @@ const Projects = () => {
                     </a>
                     <h3>Family and Friends Recipe Collection</h3>
                     <p className ='projects-descriptions'>This Full Stack project was a personal project that reflects my design preferences. I wanted this application to feel like opening your grandmother’s recipe box. This project utilizes MongoDB, Express, LiquidJS, HTML, CSS, and JavaScript. User can securely create an account and create and view recipes, as well as leave notes about individual recipes. The user can also navigate to all the recipes they have created. I am actively working on a version 2 that will implement more options for users. <a href='https://family-friends-recipe-collection.fly.dev' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a></p>
-
                 </Carousel.Item>
                 <Carousel.Item>
                     <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer">
@@ -69,13 +61,15 @@ const Projects = () => {
                 </Carousel.Item>
                 {/* need to deploy and add href */}
                 <Carousel.Item>
+                <a href='https://melsil11.github.io/Stranger-Things' target='_blank'rel="noreferrer">
                     <img id='stranger-image'
                     className="d-block w-100 carousel-img"
                     src={Picture4}
                     alt="stranger-things"
                     />
+                    </a>
                     <h3> Stranger Things Fan Page</h3>
-                    <p className ='projects-descriptions'>This HTML, CSS, and JavaScript fan page utilizes basic componets of each language. It has DOM manipulation as well and clean code.</p>
+                    <p className ='projects-descriptions'>This HTML, CSS, and JavaScript fan page utilizes basic componets of each language. It has DOM manipulation as well and clean code.<a href='https://melsil11.github.io/Stranger-Things' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a></p>
                 </Carousel.Item>
             </Carousel>
             </section>
