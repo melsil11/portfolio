@@ -22,10 +22,13 @@ const Projects = () => {
                         alt='the-good-avocado'
                         />
                     </a>
-                        <h3>The Good Avocado!</h3>
-                        <p className ='projects-descriptions'>
-                        This group project is a Full Stack MERN application utilzing MongoDB, Express, React, Node, and Cloudinary. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants and leave reviews with uploaded images.<a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
-  
+                    <h3>The Good Avocado!</h3>
+                    <p className ='projects-descriptions'>
+                    This group project is a Full Stack MERN application utilzing MongoDB, Express, React, Node, and Cloudinary. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants and leave reviews with uploaded images.
+                        <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>Deployed Link</a> 
+                        <a href='https://github.com/melsil11/Api-theGoodAvocado' target='_blank'rel="noreferrer"className='deployed'>GitHub Api Link</a> 
+                        <a href='https://github.com/melsil11/Client-theGoodAvocado' target='_blank'rel="noreferrer"className='deployed'>GitHub Client Link</a>
+                    </p> 
                 </Carousel.Item> 
                 <Carousel.Item>
                     <a href='https://family-friends-recipe-collection.fly.dev'target='_blank'rel="noreferrer" >
