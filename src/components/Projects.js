@@ -24,7 +24,7 @@ const Projects = () => {
                     </a>
                         <h3>The Good Avocado!</h3>
                         <p className ='projects-descriptions'>
-                        This group project is a Full Stack MERN application. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants by clicking on the restaurant card. Once on the show page users are greeted with a variety of details about the restaurant and when available a link to the restaurant’s personal website. Users can also leave reviews and upload images with the review. Users also can view all of the restaurants they have reviewed via a link on the nav bar. Users can create restaurants and indicate that they are the owners of the restaurant. The application also allows users to utilize a search bar that will search a restaurants name, cuisine type or location. <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
+                        This group project is a Full Stack MERN application utilzing MongoDB, Express, React, Node, and Cloudinary. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants and leave reviews with uploaded images.<a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a></p>
   
                 </Carousel.Item> 
                 <Carousel.Item>
