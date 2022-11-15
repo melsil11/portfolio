@@ -141,7 +141,7 @@ html, body {
 
 .projects-descriptions {
   padding: 5px;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   /* padding-bottom: 5%; */
 }
 
@@ -174,8 +174,13 @@ html, body {
   color: rgb(100,100,100);
   font-weight: bold;
   font-style: italic;
+  text-align: center;
+  /* margin-left: 50px; */
+  /* justify-content: center; */
 }
-
+.deploylinks {
+  text-align: center;
+}
 .deployed:hover {
   color: grey;
 }

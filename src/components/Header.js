@@ -32,7 +32,7 @@ const Item =  (
             <p><a href='https://www.linkedin.com/in/melanie-silva-ms' target="_blank" className='p-links'rel="noreferrer">LinkedIn</a></p>
         </Nav.Item>
         <Nav.Item  className = 'p-links'>
-            <p><a href='https://github.com/melsil11' target="_blank" rel="noreferrer"className='p-links'>Github</a></p>
+            <p><a href='https://github.com/melsil11' target="_blank" rel="noreferrer"className='p-links'>GitHub</a></p>
         </Nav.Item >
     </>
     )

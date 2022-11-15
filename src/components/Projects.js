@@ -24,11 +24,14 @@ const Projects = () => {
                     </a>
                     <h3>The Good Avocado!</h3>
                     <p className ='projects-descriptions'>
-                    This group project is a Full Stack MERN application utilzing MongoDB, Express, React, Node, and Cloudinary. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants and leave reviews with uploaded images.<span class='span'></span>
+                    This group project is a Full Stack MERN application utilzing MongoDB, Express, React, Node, and Cloudinary. This application allows users to view an index of restaurants as well as the ability to view more details about the restaurants and leave reviews with uploaded images.
+                    </p>
+                    <p className='deploylinks'>     
                         <a href='https://thegoodavocado.netlify.app' target='_blank'rel="noreferrer"className='deployed'>Deployed Link</a> <span class='span'></span>
                         <a href='https://github.com/melsil11/Api-theGoodAvocado' target='_blank'rel="noreferrer"className='deployed'>GitHub-API Link</a> <span class='span'></span>
                         <a href='https://github.com/melsil11/Client-theGoodAvocado' target='_blank'rel="noreferrer"className='deployed'>GitHub-Client Link</a>
                     </p> 
+                    <span class='span'></span>
                 </Carousel.Item> 
                 <Carousel.Item>
                     <a href='https://family-friends-recipe-collection.fly.dev'target='_blank'rel="noreferrer" >
@@ -39,8 +42,13 @@ const Projects = () => {
                         />
                     </a>
                     <h3>Family and Friends Recipe Collection</h3>
-                    <p className ='projects-descriptions'>This Full Stack project was a personal project that reflects my design preferences. I wanted this application to feel like opening your grandmother’s recipe box. This project utilizes MongoDB, Express, LiquidJS, HTML, CSS, and JavaScript. User can securely create an account and create and view recipes, as well as leave notes about individual recipes. The user can also navigate to all the recipes they have created. I am actively working on a version 2 that will implement more options for users. <a href='https://family-friends-recipe-collection.fly.dev' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a> <span class='span'></span>
-                        <a href='https://github.com/melsil11/Family-and-Friends-Recipe-Tracker' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a></p>
+                    <p className ='projects-descriptions'>This Full Stack project utilizes MongoDB, Express, LiquidJS, HTML, CSS, and JavaScript. User can securely create an account and create and view recipes, as well as leave notes about individual recipes.
+                    </p>
+                    <p className='deploylinks'>   
+                        <a href='https://family-friends-recipe-collection.fly.dev' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a> <span class='span'></span>
+                        <a href='https://github.com/melsil11/Family-and-Friends-Recipe-Tracker' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a>
+                    </p>
+                    <span class='span'></span>
                 </Carousel.Item>
                 <Carousel.Item>
                     <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer">
@@ -50,9 +58,14 @@ const Projects = () => {
                         alt='pie'
                         />
                     </a>
-                     <h3>Pie API</h3>
-                    <p className ='projects-descriptions'>This single resource API utilizes MongoDB, Express and LiquidJS, HTML, CSS, and JavaScript. It has full CRUD abilities and an easy-to-follow user experience. It allows users to sign up securely and view and create pies. It utilizes models and subdocuments. This was a steppingstone project that would enable me to make more dynamic projects in the future. <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a><span class='span'></span>
-                        <a href='https://github.com/melsil11/Single-Resource-API-Pies' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a> </p>
+                    <h3>Pie API</h3>
+                    <p className ='projects-descriptions'>This single resource API utilizes MongoDB, Express and LiquidJS, HTML, CSS, and JavaScript. It has full CRUD abilities and an easy-to-follow user experience. It allows users to sign up securely and view and create pies. It utilizes models and subdocuments. 
+                    </p> 
+                    <p className='deploylinks'>  
+                        <a href='https://pie-application.fly.dev' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a> <span class='span'></span>
+                        <a href='https://github.com/melsil11/Single-Resource-API-Pies' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a> 
+                    </p>
+                    <span class='span'></span>
                 </Carousel.Item>
                 <Carousel.Item>
                     <a href='https://melsil11.github.io/Find-the-Puppy' target='_blank'rel="noreferrer">
@@ -63,10 +76,14 @@ const Projects = () => {
                         />
                     </a>
                     <h3>Find the Puppy!</h3>
-                    <p className ='projects-descriptions'>This front-end project was built using HTML, CSS, and vanilla JavaScript. It was my first attempt at building something after the first two weeks of my program. Since I come from an education background, I wanted to make a simple matching game. The code randomizes the order of the cards and allows the user to play against a computer. The code is simple, clean, and dry. <a href='https://melsil11.github.io/Find-the-Puppy' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a> <span class='span'></span>
-                        <a href='https://github.com/melsil11/Find-the-Puppy' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a></p>               
+                    <p className ='projects-descriptions'>This front-end project was built using HTML, CSS, and vanilla JavaScript.  The code randomizes the order of the cards and allows the user to play against a computer. The code is simple, clean, and dry.
+                    </p>
+                    <p className='deploylinks'> 
+                        <a href='https://melsil11.github.io/Find-the-Puppy' target='_blank'rel="noreferrer"className='deployed'>DeployedLink</a><span class='span'></span>
+                        <a href='https://github.com/melsil11/Find-the-Puppy' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a>
+                    </p>  
+                    <span class='span'></span>             
                 </Carousel.Item>
-                {/* need to deploy and add href */}
                 <Carousel.Item>
                 <a href='https://melsil11.github.io/Stranger-Things' target='_blank'rel="noreferrer">
                     <img id='stranger-image'
@@ -76,8 +93,13 @@ const Projects = () => {
                     />
                     </a>
                     <h3> Stranger Things Fan Page</h3>
-                    <p className ='projects-descriptions'>This HTML, CSS, and JavaScript fan page utilizes basic componets of each language. It has DOM manipulation as well and clean code.<a href='https://melsil11.github.io/Stranger-Things' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a>  <span class='span'></span>
-                        <a href='https://github.com/melsil11/Stranger-Things' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a></p>
+                    <p className ='projects-descriptions'>This HTML, CSS, and JavaScript fan page utilizes basic componets of each language. It has DOM manipulation as well and clean code.
+                    </p>
+                    <p className='deploylinks'>
+                        <a href='https://melsil11.github.io/Stranger-Things' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a>  <span class='span'></span>
+                        <a href='https://github.com/melsil11/Stranger-Things' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a>
+                    </p>
+                    <span class='span'></span>
                 </Carousel.Item>
             </Carousel>
             </section>
