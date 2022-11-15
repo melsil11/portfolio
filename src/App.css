@@ -8,23 +8,23 @@ html, body {
 }
 
 .homepage-container{
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  height:100%;
+  height: 100%;
   color: rgb(100,100,100);
-  padding-top:10%;
-  padding-left:5%;
-  padding-right:5%;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   transition-delay: 1s;
   transition-timing-function: ease-in;
 }
 
 .hello {
   padding: 0;
-  margin:0;
+  margin: 0;
   font-size: 50px;
   font-weight: bold;  
 }
@@ -38,10 +38,10 @@ html, body {
   max-width: 400px;
   /* height: auto; */
   width: 40vh;
-  height:40vh;
-  margin-right:25px;
-  padding:5px;
-  border:2px solid white;
+  height: 40vh;
+  /* margin-right: 5px; */
+  padding: 5px;
+  border: 2px solid white;
   transition-delay: 3s;
   transition-timing-function: ease;
 }
@@ -50,22 +50,22 @@ html, body {
   max-width: 400px;
   /* height: auto; */
   width: 40vh;
-  height:40vh;
+  height: 40vh;
   margin-right: 50px;
   margin-bottom: 105px;
 
   /* margin-left: 10px; */
-  padding:5px;
+  padding: 5px;
   /* padding-right: 50px; */
-  border:2px solid white;
+  border: 2px solid white;
   transition-delay: 3s;
   transition-timing-function: ease;
 }
 
 #header-container{
-  display:flex;
+  display: flex;
   justify-content: space-between;
-  padding:25px;
+  padding: 25px;
   background-color: white;
 }
 
@@ -75,16 +75,16 @@ html, body {
 }
 
 .p-links{
-  padding-right:40px;
+  padding-right: 40px;
   font-size: 22px;
-  color:black;
+  color: black;
   text-decoration: none;
   margin-top: 2%;
   margin-bottom: -2%;
 }
 
 .heading-container{
-  color:#73c4c6;
+  color: #73c4c6;
   text-decoration: none; 
   font-weight: bold;
   
@@ -108,31 +108,31 @@ html, body {
 }
 
 .about-me-container {
-  max-width:fit-content; 
+  max-width: fit-content; 
 }
 
 #about-me-heading {
-  margin-top:0px;
-  padding-top:20px;
+  margin-top: 0px;
+  padding-top: 20px;
   color: dimgrey;
 }
 
 .about-me {
-  display:flex;
+  display: flex;
   color: dimgrey;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-left:80px;
-  padding-right:80px;
-  font-size:30px;
+  padding-left: 60px;
+  padding-right: 80px;
+  font-size: 30px;
 }
 
 .projects {
   /* display:flex;
   flex-direction: column; */
   justify-content: center;
-  width:70%;
+  width: 70%;
   height: auto;
   padding: 20px;
   margin: 0 auto;
@@ -146,7 +146,7 @@ html, body {
 }
 
 .d-block {
-  width:100%;
+  width: 100%;
   height: auto;
 }
 
