@@ -1,11 +1,11 @@
-import Picture from '../images/collagepictures.png'
+import Picture from '../images/profilepic.png'
 import '../App.css'
 
 const HomePage = () => {
     return (
         <>
         <div className='homepage-container'>
-            <img src={ Picture } className='image' alt='collageimage'/>
+            <img src={ Picture } className='profileimage' alt='profilepic'/>
             <div className='intro'>
                 <p className='hello'>Hi!</p>
                 <p className='hello'>I'm Melanie Silva</p>
