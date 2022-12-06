@@ -5,6 +5,7 @@ import Picture1 from '../images/Family-Friends-Recipe-Collection.png'
 import Picture2 from '../images/Pie-api.png'
 import Picture3 from '../images/Find-the-Puppy.png'
 import Picture4 from '../images/stranger-things.png'
+import pawsitters from '../images/pawsitters.png'
 
 
 
@@ -98,6 +99,24 @@ const Projects = () => {
                     <p className='deploylinks'>
                         <a href='https://melsil11.github.io/Stranger-Things' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a>  <span class='span'></span>
                         <a href='https://github.com/melsil11/Stranger-Things' target='_blank'rel="noreferrer"className='deployed'>GitHub Link</a>
+                    </p>
+                    <span class='span'></span>
+                </Carousel.Item>
+                <Carousel.Item>
+                <a href='' target='_blank'rel="noreferrer">
+                    <img id='pawsitters'
+                    className="d-block w-100 carousel-img"
+                    src={pawsitters}
+                    alt="pawsitters"
+                    />
+                    </a>
+                    <h3> PawSitters</h3>
+                    <p className ='projects-descriptions'>This group project  app was developed using Python, Django, and React. It was designed for users to book and review pet sitters. It has full CRUD capabilities. 
+                    </p>
+                    <p className='deploylinks'>
+                        <a href='' rel="noreferrer"target='_blank'className='deployed'>DeployedLink</a>  <span class='span'></span>
+                        <a href='https://github.com/melsil11/react-pawsitters' target='_blank'rel="noreferrer"className='deployed'>GitHub Client Link</a> <span class='span'></span>
+                        <a href='https://github.com/melsil11/django-pawsitters' target='_blank'rel="noreferrer"className='deployed'>GitHub API Link</a>
                     </p>
                     <span class='span'></span>
                 </Carousel.Item>
