@@ -132,8 +132,8 @@ html, body {
   /* display:flex;
   flex-direction: column; */
   justify-content: center;
-  width: 70%;
-  height: auto;
+  width: 50%;
+  height: 50%;
   padding: 20px;
   margin: 0 auto;
   color: rgb(100,100,100);
@@ -167,6 +167,10 @@ html, body {
 }
 
 #stranger-image {
+  height: 500px;
+}
+
+#pawsitters-image {
   height: 500px;
 }
 

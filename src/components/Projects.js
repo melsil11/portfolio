@@ -5,7 +5,7 @@ import Picture1 from '../images/Family-Friends-Recipe-Collection.png'
 import Picture2 from '../images/Pie-api.png'
 import Picture3 from '../images/Find-the-Puppy.png'
 import Picture4 from '../images/stranger-things.png'
-import pawsitters from '../images/pawsitters.png'
+import Picture5 from '../images/pawsitters.png'
 
 
 
@@ -104,9 +104,9 @@ const Projects = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                 <a href='https://pawsitters.netlify.app/' target='_blank'rel="noreferrer">
-                    <img id='pawsitters'
+                    <img id='pawsitters-image'
                     className="d-block w-100 carousel-img"
-                    src={pawsitters}
+                    src={Picture5}
                     alt="pawsitters"
                     />
                     </a>
