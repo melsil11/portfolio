@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div>
+        <footer>
           <h5 id='footer'>&copy; 2022 Melanie Silva</h5>
-        </div>
+        </footer>
       );
 }
 
