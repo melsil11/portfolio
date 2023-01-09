@@ -42,8 +42,8 @@ html, body {
   /* margin-right: 5px; */
   padding: 5px;
   border: 2px solid white;
-  transition-delay: 3s;
-  transition-timing-function: ease;
+  /* transition-delay: 3s;
+  transition-timing-function: ease; */
 }
 
 .profileimage {
@@ -58,8 +58,8 @@ html, body {
   padding: 5px;
   /* padding-right: 50px; */
   border: 2px solid white;
-  transition-delay: 3s;
-  transition-timing-function: ease;
+  /* transition-delay: 3s;
+  transition-timing-function: ease; */
 }
 
 #header-container{
