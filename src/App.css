@@ -201,3 +201,9 @@ html, body {
 .span {
   margin-left: 5px;
 }
+
+#skillsHeading {
+  font-weight: bold;
+  border-bottom: 2px solid #73c4c6;
+
+}

@@ -5,7 +5,7 @@ import {SiHtml5, SiJavascript, SiCss3, SiReact, SiMongodb, SiExpress, SiPython, 
 const skills = () => {
 
     return (
-        <div class="container-fluid">
+        <div class="container-fluid" id='skills'>
             <SiJavascript size="50px" color="grey"/><span class='span'></span>
             <SiReact size="50px" color="grey"/> <span class='span'></span>
             <SiHtml5 size="50px" color="grey"/> <span class='span'></span>
