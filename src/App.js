@@ -6,7 +6,7 @@ import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 
 

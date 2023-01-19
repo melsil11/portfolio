@@ -1,7 +1,7 @@
 import Picture from '../images/profilepic.png'
 import Skills from './Skills'
 import '../App.css'
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 import { useEffect } from 'react';
 
 const HomePage = () => {
