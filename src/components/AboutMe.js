@@ -3,11 +3,12 @@ import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
 // ReactGA.pageview(window.location.pathname);
+ReactGA.initialize('G-9J92035WTP');
 
 const AboutMe = () => {
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname)
-    }, []);
+    // useEffect(() => {
+    //     ReactGA.pageview(window.location.pathname)
+    // }, []);
     return (
         <div>
             <div className='homepage-container'>

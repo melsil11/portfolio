@@ -10,12 +10,13 @@ import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
 // ReactGA.pageview(window.location.pathname);
+ReactGA.initialize('G-9J92035WTP');
 
 
 const Projects = () => {
-    useEffect(() => {
-        ReactGA.pageview(window.location.pathname)
-    }, []);
+    // useEffect(() => {
+    //     ReactGA.pageview(window.location.pathname)
+    // }, []);
     return (
         <>
         <h2 id='projects-heading'>Click through the images to see some of my projects!</h2>
