@@ -6,7 +6,9 @@ import Picture2 from '../images/Pie-api.png'
 import Picture3 from '../images/Find-the-Puppy.png'
 import Picture4 from '../images/stranger-things.png'
 import Picture5 from '../images/pawsitters.png'
+import ReactGA from 'react-ga';
 
+ReactGA.pageview(window.location.pathname);
 
 
 const Projects = () => {

@@ -5,7 +5,13 @@ import Header from './components/Header';
 import HomePage from './components/HomePage';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import ReactGA from 'react-ga';
+
+
+// const TRACKING_ID = 'G-9J92035WTP'
+ReactGA.initialize('G-9J92035WTP');
+ReactGA.pageview(window.location.pathname);
 
 const App = () => {
   return (   

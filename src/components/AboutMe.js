@@ -1,4 +1,7 @@
 import Picture from '../images/collagepictures.png'
+import ReactGA from 'react-ga';
+
+ReactGA.pageview(window.location.pathname);
 
 const AboutMe = () => {
     return (
