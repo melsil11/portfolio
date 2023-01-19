@@ -2,8 +2,12 @@ import Picture from '../images/profilepic.png'
 import Skills from './Skills'
 import '../App.css'
 import ReactGA from 'react-ga';
+import { useEffect } from 'react';
 
 const HomePage = () => {
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname)
+    }, []);
     return (
         <>
         <div className='homepage-container'>
