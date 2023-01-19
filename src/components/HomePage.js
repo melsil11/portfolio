@@ -5,12 +5,12 @@ import ReactGA from 'react-ga4';
 import { useEffect } from 'react';
 ReactGA.initialize('G-9J92035WTP');
 
-ReactGA.send({ hitType: "pageview", page: "/my-path" });
 
 const HomePage = () => {
-    // useEffect(() => {
-    //     ReactGA.pageview(window.location.pathname)
-    // }, []);
+    useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/" });
+        // ReactGA.pageview(window.location.pathname)
+    }, []);
     return (
         <>
         <div className='homepage-container'>
