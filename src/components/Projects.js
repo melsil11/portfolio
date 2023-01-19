@@ -9,8 +9,9 @@ import Picture5 from '../images/pawsitters.png'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
-// ReactGA.pageview(window.location.pathname);
+
 ReactGA.initialize('G-9J92035WTP');
+ReactGA.send("pageview");
 
 
 const Projects = () => {

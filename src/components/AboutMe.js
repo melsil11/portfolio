@@ -4,6 +4,7 @@ import { useEffect } from 'react'
 
 
 ReactGA.initialize('G-9J92035WTP');
+ReactGA.send("pageview");
 
 const AboutMe = () => {
     useEffect(() => {
