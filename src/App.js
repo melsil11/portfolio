@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import ReactGA from 'react-ga';
 
 
-// const TRACKING_ID = 'G-9J92035WTP'
+
 ReactGA.initialize('G-9J92035WTP');
 ReactGA.pageview(window.location.pathname);
 
