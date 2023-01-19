@@ -2,13 +2,13 @@ import Picture from '../images/collagepictures.png'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
-// ReactGA.pageview(window.location.pathname);
+
 ReactGA.initialize('G-9J92035WTP');
 
 const AboutMe = () => {
-    // useEffect(() => {
-    //     ReactGA.pageview(window.location.pathname)
-    // }, []);
+    useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/aboutme" });
+    }, []);
     return (
         <div>
             <div className='homepage-container'>

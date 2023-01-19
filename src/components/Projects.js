@@ -14,9 +14,9 @@ ReactGA.initialize('G-9J92035WTP');
 
 
 const Projects = () => {
-    // useEffect(() => {
-    //     ReactGA.pageview(window.location.pathname)
-    // }, []);
+    useEffect(() => {
+        ReactGA.send({ hitType: "pageview", page: "/projects" });
+    }, []);
     return (
         <>
         <h2 id='projects-heading'>Click through the images to see some of my projects!</h2>
