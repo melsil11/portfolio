@@ -11,7 +11,7 @@ import ReactGA from 'react-ga4';
 
 
 ReactGA.initialize('G-9J92035WTP');
-ReactGA.send("pageview");
+// ReactGA.send("pageview");
 
 
 const App = () => {
