@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactGA from 'react-ga';
+ReactGA.initialize('G-9J92035WTP');
 // import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

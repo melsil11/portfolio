@@ -1,6 +1,7 @@
 import Picture from '../images/profilepic.png'
 import Skills from './Skills'
 import '../App.css'
+import ReactGA from 'react-ga';
 
 const HomePage = () => {
     return (
