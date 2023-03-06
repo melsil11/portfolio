@@ -1,4 +1,4 @@
-import Picture from '../images/collagepictures.png'
+import Picture from '../images/collagepictures.webp'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
