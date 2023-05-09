@@ -47,7 +47,7 @@ const Projects = () => {
                         <img id='recipe-image'
                         className="d-block w-100 carousel-img"
                         src={Picture1}
-                        alt='recipe-collection'
+                        alt='friends and family recipe-collection'
                         />
                     </a>
                     <h3>Family and Friends Recipe Collection</h3>
@@ -64,7 +64,7 @@ const Projects = () => {
                         <img id='pie-image'
                         className="d-block w-100 carousel-img"
                         src={Picture2}
-                        alt='pie'
+                        alt='pie application'
                         />
                     </a>
                     <h3>Pie API</h3>
@@ -81,7 +81,7 @@ const Projects = () => {
                         <img id='find-the-puppy-image'
                         className="d-block w-100 carousel-img"
                         src={Picture3}
-                        alt="puppy"
+                        alt='find the puppy game'
                         />
                     </a>
                     <h3>Find the Puppy!</h3>
@@ -98,7 +98,7 @@ const Projects = () => {
                     <img id='stranger-image'
                     className="d-block w-100 carousel-img"
                     src={Picture4}
-                    alt="stranger-things"
+                    alt='stranger-things fanpage'
                     />
                     </a>
                     <h3> Stranger Things Fan Page</h3>
@@ -115,7 +115,7 @@ const Projects = () => {
                     <img id='pawsitters-image'
                     className="d-block w-100 carousel-img"
                     src={Picture5}
-                    alt="pawsitters"
+                    alt='pawsitters'
                     />
                     </a>
                     <h3> PawSitters</h3>
