@@ -34,17 +34,7 @@ html, body {
   color: dimgrey;
 }
 
-.image{
-  max-width: 400px;
-  /* height: auto; */
-  width: 40vh;
-  height: 40vh;
-  /* margin-right: 5px; */
-  padding: 5px;
-  border: 2px solid white;
-  /* transition-delay: 3s;
-  transition-timing-function: ease; */
-}
+
 
 .profileimage {
   max-width: 400px;
@@ -122,10 +112,26 @@ html, body {
   color: dimgrey;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   padding-left: 60px;
   padding-right: 80px;
   font-size: 30px;
+}
+.collageImage{
+  /* display: flex; */
+  max-width: 400px;
+  /* height: auto; */
+  width: 40vh;
+  height: 40vh;
+  /* margin-right: 5px; */
+  /* margin-left: 32%; */
+  padding: 5px;
+  margin-left: 5%;
+  border: 2px solid white;
+  /* transition-delay: 3s;
+  transition-timing-function: ease; */
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .projects {
