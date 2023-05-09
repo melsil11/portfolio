@@ -4,11 +4,11 @@ import { useEffect } from 'react'
 
 
 ReactGA.initialize('G-9J92035WTP');
-ReactGA.send("pageview");
+ReactGA.send('pageview');
 
 const AboutMe = () => {
     useEffect(() => {
-        ReactGA.send({ hitType: "pageview", page: "/aboutme" });
+        ReactGA.send({ hitType: 'pageview', page: '/aboutme' });
     }, []);
     return (
         <div>

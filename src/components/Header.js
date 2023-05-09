@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import {Link} from 'react-router-dom'
 import { Nav } from 'react-bootstrap'
 // import { Container } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
@@ -26,13 +26,13 @@ const Item =  (
                                 {/* need to add link address for the updated resume */}
         </Nav.Item>  
         <Nav.Item  className = 'p-links'>  
-            <p><a href='https://docs.google.com/document/d/e/2PACX-1vTnBXIiFEw-Kv8dSxDXdjhUL9ox4RrNPnRe4ZfwrswUts1tdjFN451gMCTROWo3gPynue2eErmG732W/pub' target="_blank" className='p-links'rel="noreferrer">Resume</a></p>
+            <p><a href='https://docs.google.com/document/d/e/2PACX-1vTnBXIiFEw-Kv8dSxDXdjhUL9ox4RrNPnRe4ZfwrswUts1tdjFN451gMCTROWo3gPynue2eErmG732W/pub' target='_blank' className='p-links'rel='noreferrer'>Resume</a></p>
         </Nav.Item>
         <Nav.Item  className = 'p-links'>
-            <p><a href='https://www.linkedin.com/in/melanie-silva-ms' target="_blank" className='p-links'rel="noreferrer">LinkedIn</a></p>
+            <p><a href='https://www.linkedin.com/in/melanie-silva-ms' target='_blank' className='p-links'rel='noreferrer'>LinkedIn</a></p>
         </Nav.Item>
         <Nav.Item  className = 'p-links'>
-            <p><a href='https://github.com/melsil11' target="_blank" rel="noreferrer"className='p-links'>GitHub</a></p>
+            <p><a href='https://github.com/melsil11' target='_blank' rel='noreferrer'className='p-links'>GitHub</a></p>
         </Nav.Item >
     </>
     )
