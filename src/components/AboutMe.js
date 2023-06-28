@@ -14,7 +14,7 @@ const AboutMe = () => {
         <div>
             <div className='homepage-container'>           
             <div>
-                <img src={ Picture } className='collageImage' alt='collage of Melanie Silva outdoor activities'/>
+                <img src={ Picture } className='collageImage' alt='collage of Melanie Silva outdoor activities. Activities include at the beach with her two dogs, riding a bike with her dog, fishing, and participating in a foam glow 5k.'/>
                 <h1 className='about-me' id= 'about-me-heading'>Hello and thanks for visiting!</h1>
                 <span className='span'></span>
                 <p className='about-me'> My name is Melanie Silva, and I am a Fullstack Software Engineer that is experienced in creating fullstack applications that meet the needs and expectations of clients. </p>
