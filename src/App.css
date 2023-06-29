@@ -101,7 +101,7 @@ html, body {
 }
 
 #about-me-heading {
-  margin-top: 0px;
+  /* margin-top: 0px; */
   padding-top: 20px;
   color: dimgrey;
   font-weight: bold;
@@ -110,8 +110,8 @@ html, body {
 .about-me {
   display: flex;
   color: dimgrey;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   /* flex-direction: column; */
   padding-left: 60px;
   padding-right: 80px;
@@ -121,8 +121,8 @@ html, body {
   /* display: flex; */
   max-width: 400px;
   /* height: auto; */
-  width: 40vh;
-  height: 40vh;
+  width: 50vh;
+  height: 50vh;
   /* margin-right: 5px; */
   /* margin-left: 32%; */
   padding: 5px;
