@@ -9,8 +9,9 @@ import Picture5 from '../images/pawsitters.webp'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
+ReactGA.initialize('G-22VYZTEQ9Q');
 
-ReactGA.initialize('G-9J92035WTP');
+// ReactGA.initialize('G-9J92035WTP');
 ReactGA.send('pageview');
 
 

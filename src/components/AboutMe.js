@@ -2,8 +2,9 @@ import Picture from '../images/collagepictures.webp'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
-
-ReactGA.initialize('G-9J92035WTP');
+ReactGA.initialize('G-22VYZTEQ9Q');
+// old Google Annalytics
+// ReactGA.initialize('G-9J92035WTP');
 ReactGA.send('pageview');
 
 const AboutMe = () => {
